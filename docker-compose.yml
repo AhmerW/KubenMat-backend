@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  mongo:
+    image: mongo
+    env_file:
+      - .env
+
+    ports:
+      - 27017:27017
+
+  backend:
+    image: backend
+    build:
+      context: .
+
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000

@@ -1,0 +1,9 @@
+{
+    "locations": [
+        {
+            "id": "test",
+            "name": "Main",
+            "description": "Main location"
+        }
+    ]
+}

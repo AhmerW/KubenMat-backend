@@ -1,0 +1,8 @@
+fastapi==0.78.0
+firebase_admin==5.1.0
+pydantic==1.8.2
+sqlmodel==0.0.6
+uvicorn==0.15.0
+databases==0.6.0
+motor==3.0.0
+python-dotenv==0.20.0
